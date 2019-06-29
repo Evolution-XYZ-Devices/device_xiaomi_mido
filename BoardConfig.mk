@@ -15,7 +15,7 @@
 #
 
 DEVICE_PATH := device/xiaomi/mido
-
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Architecture
