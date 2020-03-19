@@ -743,10 +743,10 @@ vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|cb930c66271392a7e0139fb9d1a
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|dfedda144d19622e3e579186033da2b7f3c80d32
 vendor/lib64/vendor.qti.latency@2.0.so|72645a214e8675680862af236420d8195651f29d
 
-# Dirac
-vendor/etc/diracmobile.config
-lib/libDiracAPI_SHARED.so:vendor/lib/libDiracAPI_SHARED.so
-lib/soundfx/libdirac.so:vendor/lib/soundfx/libdirac.so
+# Dirac - from Xiaomi
+vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
+vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
+vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 
 # DPM - from LA.UM.8.6.2.r1-08400-89xx.0
 product/bin/dpmd|6c511e3e4293705777b563b45d7c216207a6ead0
