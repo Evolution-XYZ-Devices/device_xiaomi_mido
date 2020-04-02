@@ -3,3 +3,6 @@ allow platform_app app_data_file:file rx_file_perms;
 
 # Face Unlock
 get_prop(platform_app, camera_prop)
+
+# FPS
+allow platform_app sysfs_fps:file { getattr open read };
