@@ -646,4 +646,9 @@
 
     <!-- Smart replies in notifications: Whether we disable the feature unless the app targets P -->
     <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
+
+    <!-- Smart charge sysfs node and value for suspend/resume charging-->
+    <string name="config_smartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
+    <string name="config_smartChargingSupspendValue" translatable="false">0</string>
+    <string name="config_smartChargingResumeValue" translatable="false">1</string>
 </resources>
