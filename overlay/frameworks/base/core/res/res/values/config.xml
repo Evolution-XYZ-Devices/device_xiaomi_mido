@@ -683,4 +683,7 @@
          strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
 
+    <!-- Enable pocket mode -->
+    <bool name="config_proxiSensorWakupCheck">true</bool> 
+
 </resources>
