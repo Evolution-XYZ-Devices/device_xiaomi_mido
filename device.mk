@@ -28,8 +28,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
+# AR config
+PRODUCT_COPY_FILES += \
+    device/xiaomi/mido/configs/android.hardware.camera.ar.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.ar.xml
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -395,3 +396,8 @@ PRODUCT_PACKAGES += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+TARGET_PIXEL_CHARGE_ANIM := true
+
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
