@@ -68,4 +68,7 @@ void vendor_load_properties()
     property_set("dalvik.vm.heaptargetutilization", heaptargetutilization);
     property_set("dalvik.vm.heapminfree", heapminfree);
     property_set("dalvik.vm.heapmaxfree", heapmaxfree);
+    property_set("org.evolution.build_donate_url", "https://paypal.me/swaraj14111998");
+    property_set("org.evolution.build_maintainer", "Suyog Ctrl");
+    property_set("org.evolution.build_support_url", "https://t.me/EvolutionXMido");
 }
