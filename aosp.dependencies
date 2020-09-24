@@ -1,7 +1,15 @@
 [
   {
-    "repository"  : "kernel_xiaomi_mido",
+    "remote" : "github",
+    "repository" : "kdrag0n/proton-clang",
+    "target_path" : "prebuilts/clang/host/linux-x86/clang-r383902/clang",
+    "branch" : "master"
+  },
+  {
+    "remote" : "github", 
+    "repository"  : "Nicklas373/kernel_xiaomi_msm8953-4.9.git",
     "target_path" : "kernel/xiaomi/mido"
+    "branch" : "lineage-17.1"
   },
   {
     "repository"  : "vendor_xiaomi_mido",
